@@ -1,0 +1,13 @@
+.justDiv {
+    display: none;
+
+    margin-top: 15px;
+    width: 100px;
+    height: 100px;
+
+    background: red;
+}
+.justDiv.active {
+    display: block;
+}
+  
