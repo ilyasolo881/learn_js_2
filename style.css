@@ -1,13 +1,8 @@
-.justDiv {
-    display: none;
-
-    margin-top: 15px;
-    width: 100px;
-    height: 100px;
-
-    background: red;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.justDiv.active {
-    display: block;
+body{
+    background-color: aqua;
 }
-  
