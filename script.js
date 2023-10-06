@@ -19,16 +19,9 @@
 //   )
 // }
 
-let seq = 0;
-const increaseSeq = function (){
-seq++;
-}
+const counter = document.querySelectorAll(".counter")
 
-document.querySelector(".counter__button").addEventListener("click",
-increaseSeq);
-
-console.log(seq)
-
+if (target)
 // if (counters) {
 // 	counters.forEach(counter => {
 // 		counter.addEventListener('click', e => {
