@@ -1,13 +1,66 @@
-.justDiv {
-    display: none;
-
-    margin-top: 15px;
-    width: 100px;
-    height: 100px;
-
-    background: red;
+*{
+    margin: 0;
+    padding: 0;
 }
-.justDiv.active {
-    display: block;
+body{
+    background-color: rgb(151, 255, 160);
 }
-  
+.flex-maincontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.flex-container{
+    margin-top: 20px;
+    display: flex;
+    height: 300px;
+    width: 15%;
+
+    align-items: center;
+    justify-content: center;
+    
+    flex-direction: column;
+    background-color: rgb(60, 255, 11);
+}
+.flex-container__button_1{
+    width: 200px;
+    height: 200px;
+    background-image: url(/img/emg_1.png);
+
+    border: 2px solid #000
+}
+.flex-container__button_2{
+    width: 200px;
+    height: 200px;
+    background-image: url(/img/emg_2.png);
+
+    border: 2px solid #000
+}
+.flex-container__button_3{
+    width: 200px;
+    height: 200px;
+    background-image: url(/img/emg_3.png);
+
+    border: 2px solid #000
+}
+.flex-container__button_4{
+    width: 200px;
+    height: 200px;
+    background-image: url(/img/emg_4.png);
+
+    border: 2px solid #000
+}
+.flex-container__button_5{
+    width: 200px;
+    height: 200px;
+    background-image: url(/img/emg_5.png);
+
+    border: 2px solid #000
+}
+.input__box{
+    margin: 0;
+}
+input{
+    text-align: center;
+    margin-top: 20px;
+}
