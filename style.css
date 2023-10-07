@@ -32,10 +32,7 @@ body{
 .img_colobok{
     width: 170px;
 }
-.input__bocounter__inputx{
-    margin: 0;
-}
-h1{
+span{
     margin-top: 20px;
     width: 30px;
     height: 30px;
@@ -43,12 +40,4 @@ h1{
     background-color: #fff;
     font-size: 30px;
     text-align: center;
-
 }
-
-.counter__input input {
-    width: 100%;
-    background-color: #ffc700;
-    border: none;
-    text-align: center;
-  }
