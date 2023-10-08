@@ -47,6 +47,7 @@ function noEndless(){
 }
 
 function autoplay(){
+    clearInterval(autoplay);
     const button = document.querySelector(".next");
     const check = document.querySelector(".autoplay");
     if (check.checked) {
