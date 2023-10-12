@@ -321,12 +321,13 @@ function personCreate(obj){
 // personCreate(newObj)
 // -------------------------------------------------
 
-let promise = fetch('https://swapi.dev/api/people/').then((response) => {
-    return response.json();
-})
-.then((data) => {
-    let db = data.results 
-    let arr = clearDB(db)
-    console.log(arr)
-    return personCreate(arr)
-})
+let promise = fetch('https://swapi.dev/api/people/')
+    .then((response) => {
+        return response.json();
+    })
+    .then((data) => {
+        let db = data.results 
+        let arr = clearDB(db)
+        console.log(arr)
+        return personCreate(arr)
+    })
