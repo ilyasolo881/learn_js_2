@@ -1,43 +1,52 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: rgb(151, 255, 160);
+body {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
 
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-.counter{
-    margin-top: 20px;
-    display: flex;
-    height: 300px;
-    width: 15%;
+.counter {
+  margin: 30px;
+  gap: 40px;
+  margin-top: 20px;
+  display: flex;
+  height: 300px;
+  width: 15%;
 
-    align-items: center;
-    justify-content: center;
-    
-    flex-direction: column;
-    background-color: rgb(60, 255, 11);
-}
-.counter__button{
-    width: 200px;
-    height: 200px;
+  align-items: center;
+  justify-content: center;
 
-    border: 2px solid #000;
-    border-radius: 50%;
+  flex-direction: column;
+  border-radius: 50px;
+  background: #3e4e8e;
+  box-shadow: 20px 20px 60px #354279, -20px -20px 60px #475aa3;
 }
-.img_colobok{
-    width: 170px;
-}
-span{
-    margin-top: 20px;
-    width: 30px;
-    height: 30px;
+.counter__button {
+  width: 200px;
+  height: 200px;
 
-    background-color: #fff;
-    font-size: 30px;
-    text-align: center;
+  border: 2px solid #000;
+  border-radius: 50%;
+}
+.img_colobok {
+  width: 170px;
+}
+span {
+  margin-top: 20px;
+  width: 30px;
+  height: 30px;
+
+  background-color: #fff;
+  font-size: 30px;
+  text-align: center;
 }
